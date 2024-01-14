@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('netflix.jpg');
+}
+
+.logo {
+    width:175px;
+    margin-left: 50px;
+}
+
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 80px;
+    background-color: #000000e6;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: start;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 35px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(63, 63, 63);
+}
+
+.remember-sec {
+    display: grid;
+    grid-template-columns: 0.5fr 4fr 2fr;
+}
+
+.remember-sec label {
+    color:#505050;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #dedede;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.new-net {
+    color: #505050;
+}
+
+.check-box {
+    background-color: #505050;
+}
+
+.lic {
+    font-size: 12px;
+    color: #505050;
+}
+
+.lic a{
+    color: rgb(0, 136, 255);
+}
+
+button {
+    margin-top: 20px;
+    background-color: #e50914;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background-color: #d40711;
+}
